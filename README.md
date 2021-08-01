@@ -7,4 +7,4 @@ first，run Initial.m.
 
 second,run this model in simulink.
 
-Then it start running.
+Then it starts running.
