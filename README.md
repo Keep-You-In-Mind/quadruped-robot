@@ -5,6 +5,6 @@ How to use this model?
 
 first，run Initial.m.
 
-second,run this model in simulink.
+second,run this model(quadrupedRobot.slx) in simulink.
 
 Then it starts running.
