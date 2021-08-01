@@ -48,7 +48,7 @@
 
 
 
-    open_system('F:\奋力一击_论文写作_2021_04_07——不成功就成仁\放假开始浪\Simscape\quadrupedRobot.slx');
+    open_system('..\quadrupedRobot.slx');
 
 
 
