@@ -74,21 +74,11 @@ function getFootSpace(L1,L2,L3)
     % theta1 = [-60:60];
     % theta2 = [-60:60];
     for  index = 1:0.0001:1.5
-        theta0 = rand()*60;
-        if rand()>=0.5
-            theta0=-theta0;
-        end
-
-        theta1 = rand()*60;
-        if rand()>=0.5
-            theta1=-theta1;
-        end
-
-        theta2 = rand()*60;
-        if rand()>=0.5
-            theta2=-theta2;
-        end
-
+    
+        theta0 = (2*rand()-1)*60;
+        theta1 = (2*rand()-1)*60;
+        theta2 = (2*rand()-1)*60;
+        
         [x,y,z]=forwardKinematics(L1,L2,L3,theta0,theta1,theta2);  
         plot3(x,y,z,'go');
         hold on
