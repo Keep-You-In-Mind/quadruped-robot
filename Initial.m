@@ -100,6 +100,6 @@ end
 
 
 function  [x_swing,x_stance,y_trajectory]=getTrajectory(S,Tm,T,H,sampleTime)
-    %% 王立鹏 基于足端轨迹规划算法
+    %王立鹏 基于足端轨迹规划算法
     [x_swing,x_stance,y_trajectory]=footTrajectory(S,Tm,T,H,sampleTime);%
 end
