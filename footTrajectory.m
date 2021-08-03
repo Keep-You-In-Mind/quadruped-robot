@@ -1,6 +1,6 @@
 
 
-%% 王立鹏,王军政,汪首坤,等. 基于足端轨迹规划算法的液压四足机器人步态控制策略
+% 王立鹏,王军政,汪首坤,等. 基于足端轨迹规划算法的液压四足机器人步态控制策略
 function  [x_swing,x_stance,y]=footTrajectory(S,Tm,T,H,sample_time)
 % S = 160 ;%单位mm
 % Tm = 0.5;%单位s
